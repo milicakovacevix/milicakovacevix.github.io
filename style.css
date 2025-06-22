@@ -1,31 +1,89 @@
+/* Osnovni stilovi */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000000; /* Crna pozadina */
+    color: #f06292; /* Roza tekst */
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
-    color: #333;
   }
   
+  /* Header sa animacijom */
   header {
-    background-color: #4a90e2;
-    color: white;
-    padding: 40px;
+    background-color: #1a1a1a; /* Tamno siva, skoro crna */
+    color: #f06292; /* Roze tekst */
+    padding: 50px;
     text-align: center;
+    border-bottom: 3px solid #f06292; /* Roza ivica ispod */
+    animation: fadeIn 2s ease-in-out;
   }
   
+  
+  /* Animacija za header */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Sekcija sa podacima o meni */
   section {
+    max-width: 900px;
+    margin: 20px auto;
     padding: 20px;
-    max-width: 800px;
-    margin: auto;
+    border-radius: 8px;
+    background-color: #333333; /* Tamno siva pozadina sekcija */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   h2 {
-    color: #4a90e2;
+    color: #f06292; /* Roza boja za naslove */
+    font-size: 24px;
   }
   
+  /* Stil za linkove */
   a {
-    color: #4a90e2;
+    color: #f06292; /* Roza boja za linkove */
     text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Stajling sekcija */
+  .about, .projects, .contact {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Responsivnost za mobilne uređaje */
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  
+    header {
+      padding: 20px;
+    }
+  
+    section {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
   }
   
