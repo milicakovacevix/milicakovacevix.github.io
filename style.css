@@ -85,5 +85,21 @@ body {
     h2 {
       font-size: 20px;
     }
+    .skills ul,
+.projects ul {
+  padding-left: 20px;
+}
+
+.skills li,
+.projects li {
+  color: #f8bbd0;
+  margin-bottom: 10px;
+}
+
+.contact a {
+  color: #f06292;
+  font-weight: bold;
+}
+
   }
   
