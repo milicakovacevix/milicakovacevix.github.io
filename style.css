@@ -103,8 +103,8 @@ body {
 
 
 .profile-photo img {
-    width: 150px;  /* Željena širina slike */
-    height: 150px; /* Željena visina slike */
+    width: 130px;  /* Željena širina slike */
+    height: 130px; /* Željena visina slike */
     border-radius: 50%; /* Čini sliku kružnom */
     object-fit: cover; /* Prilagođava sliku bez izobličenja */
     border: 3px solid #f06292; /* Boja okvira slike */
