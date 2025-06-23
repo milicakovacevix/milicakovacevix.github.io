@@ -102,16 +102,7 @@ body {
 }
 
 
-.profile-photo img {
-    width: 130px;  /* Željena širina slike */
-    height: 130px; /* Željena visina slike */
-    border-radius: 50%; /* Čini sliku kružnom */
-    object-fit: cover; /* Prilagođava sliku bez izobličenja */
-    border: 3px solid #f06292; /* Boja okvira slike */
-    margin: 20px auto; /* Centriranje slike */
-    display: block; /* Centriranje slike */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Senka oko slike */
-  }
+
   
   
   .btn {
