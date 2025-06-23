@@ -124,16 +124,27 @@ body {
     margin: 20px 0;
   }
   
+ 
   .profile-photo img {
     width: 130px;
     height: 130px;
-    border-radius: 50%;        /* za krug */
-    object-fit: cover;         /* da ne bude iskrivljena */
-    border: 3px solid #f06292; /* roze ivica */
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #f06292;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    animation: pulse 1.5s infinite ease-in-out;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
   
   
