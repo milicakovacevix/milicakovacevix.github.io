@@ -119,6 +119,19 @@ body {
   .btn:hover {
     background-color: #ec407a;
   }
+  .profile-photo {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .profile-photo img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;       /* čini sliku krugom */
+    object-fit: cover;        /* popunjava okvir bez izobličenja */
+    border: 3px solid #f06292; /* roze okvir */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* senka */
+  }
   
   }
   
