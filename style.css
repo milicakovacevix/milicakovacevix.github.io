@@ -119,21 +119,23 @@ body {
   .btn:hover {
     background-color: #ec407a;
   }
-  .profile-photo {
-    text-align: center;
-    margin: 20px 0;
-  }
-  
- 
-  .profile-photo img {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #f06292;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    animation: pulse 1.5s infinite ease-in-out;
-  }
+
+ .profile-photo {
+  text-align: center; /* Centriranje sadržaja unutar kontejnera */
+  margin: 20px auto; /* Centriranje kontejnera na stranici */
+}
+
+.profile-photo img {
+  width: 130px; /* Širina slike */
+  height: 130px; /* Visina slike */
+  border-radius: 50%; /* Kružna slika */
+  object-fit: cover; /* Popunjava okvir bez izobličenja */
+  border: 3px solid #f06292; /* Roza okvir oko slike */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Senka oko slike */
+  display: inline-block; /* Potrebno da bi se primenio centar */
+  margin-top: 10px; /* Dodajemo malo razmaka na vrhu */
+}
+
   
   @keyframes pulse {
     0% {
