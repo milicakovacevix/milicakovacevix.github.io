@@ -122,7 +122,7 @@ body {
 
  .profile-photo {
   text-align: center; /* Centriranje sadržaja unutar kontejnera */
-  margin: 20px auto; /* Centriranje kontejnera na stranici */
+  margin: 0 auto; /* Centriranje kontejnera na stranici */
 }
 
 .profile-photo img {
@@ -132,7 +132,7 @@ body {
   object-fit: cover; /* Popunjava okvir bez izobličenja */
   border: 3px solid #f06292; /* Roza okvir oko slike */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Senka oko slike */
-  display: inline-block; /* Potrebno da bi se primenio centar */
+  display: block; /* Potrebno da bi se primenio centar */
   margin-top: 10px; /* Dodajemo malo razmaka na vrhu */
 }
 
