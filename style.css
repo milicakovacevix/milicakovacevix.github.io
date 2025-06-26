@@ -85,9 +85,11 @@ body {
     h2 {
       font-size: 20px;
     }
+  }
+
     .skills ul,
-.projects ul {
-  padding-left: 20px;
+    .projects ul {
+     padding-left: 20px;
 }
 
 .skills li,
@@ -142,5 +144,5 @@ body {
   
   
   
-  }
+  
   
